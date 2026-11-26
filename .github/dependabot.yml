@@ -1,0 +1,11 @@
+# Weekly pull requests that update npm packages and GitHub Actions versions.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
